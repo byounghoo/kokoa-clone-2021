@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Find - Kokoa Clone</title>
+  </head>
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>No Service</span>
+        <i class="fas fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>18:43</span>
+      </div>
+      <div class="status-bar__column">
+        <span>110%</span>
+        <i class="fas fa-battery-full fa-lg"></i>
+        <i class="fas fa-bolt"></i>
+      </div>
+    </div>
+
+    <header class="screen-header">
+      <h1 class="screen-header__title">Find</h1>
+      <div class="screen-header__icons">
+        <span><i class="fas fa-search"></i></span>
+        <span><i class="fas fa-cog"></i></span>
+      </div>
+    </header>
+
+    <main class="main-screen">
+      <div class="icon-row">
+        <div class="icon-row__icon">
+          <i class="fas fa-qrcode"></i>
+          <span>QR Code</span>
+        </div>
+        <div class="icon-row__icon">
+          <i class="far fa-address-book"></i>
+          <span>Add by Contacts</span>
+        </div>
+        <div class="icon-row__icon">
+          <i class="fas fa-fingerprint"></i>
+          <span>Add by ID</span>
+        </div>
+        <div class="icon-row__icon">
+          <i class="far fa-envelope"></i>
+          <span>Invite</span>
+        </div>
+      </div>
+      <div class="recommended-friends">
+        <h6 class="recommended-friends__title">Recommended Friends</h6>
+        <span>You have no recommended friends.</span>
+      </div>
+      <div class="open-chat">
+        <div class="open-chat__header">
+          <h4>Open Chat</h4>
+          <span
+            >Go to Openchat Home <i class="fas fa-chevron-right fa-xs"></i
+          ></span>
+        </div>
+        <div class="open-post">
+          <div class="open-post__column">
+            <h5 class="open-post__title">#IU</h5>
+            <h6 class="open-post__hashtags">#iu#uaena#friends</h6>
+            <div class="open-post__members">
+              <img src="https://postfiles.pstatic.net/MjAyMTA1MDVfMTE5/MDAxNjIwMjE2MDY2ODk2.QLHyJlDfKiZH5K4QQbogUrVkwFXbMDnpU38xCjO68IYg.GOX3tZZLRzdDrsh2wG-DXwS4_ca1KVYOGO-h1GG7I9Mg.PNG.41522s2/%EB%A8%B8%EB%A6%AC%ED%86%B5.png?type=w966" />
+              <span class="open-post__member-count">918 members</span>
+              <div class="divider"></div>
+              <span class="open-post__member-status">Active</span>
+            </div>
+          </div>
+          <div class="open-post__column">
+            <div class="open-post__photo">
+              <img src="https://w.namu.la/s/17d91fc6ab1f97bc00284fccfd1ffac614724ffa5b958ea37f52bf767c3960e929fc02f4f0d9949cfacec3b15dd34f83dcae5ebc983923f961b3e8551c24dae3304e2044ecbd48edb81fada4e20d4e3ba01a74e589051b863400e2034066681d" />
+              <div class="open-post__heart-count">
+                <i class="fas fa-heart"></i><span>2008</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="open-post">
+          <div class="open-post__column">
+            <h5 class="open-post__title">#IU</h5>
+            <h6 class="open-post__hashtags">#iu#uaena#friends</h6>
+            <div class="open-post__members">
+              <img src="https://postfiles.pstatic.net/MjAyMTA1MDVfMTE5/MDAxNjIwMjE2MDY2ODk2.QLHyJlDfKiZH5K4QQbogUrVkwFXbMDnpU38xCjO68IYg.GOX3tZZLRzdDrsh2wG-DXwS4_ca1KVYOGO-h1GG7I9Mg.PNG.41522s2/%EB%A8%B8%EB%A6%AC%ED%86%B5.png?type=w966" />
+              <span class="open-post__member-count">516 members</span>
+              <div class="divider"></div>
+              <span class="open-post__member-status">Active</span>
+            </div>
+          </div>
+          <div class="open-post__column">
+            <div class="open-post__photo">
+              <img src="https://ww.namu.la/s/01f84f9924cdf39c9716c039ff6426f31d67be236c969a5dfce6d4583833412927683220ab36b5dc6b6925beeb7832c00794d24658b1a59a22f37c1b89c4f3e52018a0ee79b0363e50329684cf3823b78e868d94ed24af6f470d66d545504255137a397401e8e5ecee7a3f581a840ccb" />
+              <div class="open-post__heart-count">
+                <i class="fas fa-heart"></i><span>1993</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__btn">
+          <a class="nav__link" href="friends.html"
+            ><i class="far fa-user fa-2x"></i
+          ></a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="chats.html">
+            <span class="nav__notification badge">1</span>
+            <i class="far fa-comment fa-2x"></i>
+          </a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="find.html"
+            ><i class="fas fa-search fa-2x"></i
+          ></a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="more.html"
+            ><i class="fas fa-ellipsis-h fa-2x"></i
+          ></a>
+        </li>
+      </ul>
+    </nav>
+
+    <div id="no-mobile">
+      <span>Yours too big</span>
+    </div>
+
+    <script
+      src="https://kit.fontawesome.com/2d27fbdcc2.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
